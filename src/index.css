@@ -1,2 +1,11 @@
 
 @import "tailwindcss";
+/* Oculta a barra mas mantém o scroll */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  -ms-overflow-style: none;  /* IE e Edge */
+  scrollbar-width: none;     /* Firefox */
+}
